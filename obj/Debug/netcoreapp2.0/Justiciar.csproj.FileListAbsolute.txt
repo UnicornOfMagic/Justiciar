@@ -1,0 +1,11 @@
+/Users/jacobfeld/Documents/personalProjects/Justiciar/bin/Debug/netcoreapp2.0/Justiciar.deps.json
+/Users/jacobfeld/Documents/personalProjects/Justiciar/bin/Debug/netcoreapp2.0/Justiciar.runtimeconfig.json
+/Users/jacobfeld/Documents/personalProjects/Justiciar/bin/Debug/netcoreapp2.0/Justiciar.runtimeconfig.dev.json
+/Users/jacobfeld/Documents/personalProjects/Justiciar/bin/Debug/netcoreapp2.0/Justiciar.dll
+/Users/jacobfeld/Documents/personalProjects/Justiciar/bin/Debug/netcoreapp2.0/Justiciar.pdb
+/Users/jacobfeld/Documents/personalProjects/Justiciar/obj/Debug/netcoreapp2.0/Justiciar.csprojResolveAssemblyReference.cache
+/Users/jacobfeld/Documents/personalProjects/Justiciar/obj/Debug/netcoreapp2.0/Justiciar.csproj.CoreCompileInputs.cache
+/Users/jacobfeld/Documents/personalProjects/Justiciar/obj/Debug/netcoreapp2.0/Justiciar.AssemblyInfoInputs.cache
+/Users/jacobfeld/Documents/personalProjects/Justiciar/obj/Debug/netcoreapp2.0/Justiciar.AssemblyInfo.cs
+/Users/jacobfeld/Documents/personalProjects/Justiciar/obj/Debug/netcoreapp2.0/Justiciar.dll
+/Users/jacobfeld/Documents/personalProjects/Justiciar/obj/Debug/netcoreapp2.0/Justiciar.pdb
