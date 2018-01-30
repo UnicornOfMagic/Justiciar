@@ -6,7 +6,10 @@ namespace Justiciar
     {
         static void Main(string[] args)
         {
+
             Console.WriteLine("Hello World!");
+            Console.WriteLine("I made an item:");
+            Console.WriteLine(Forge.ForgeItem());
         }
     }
 }
