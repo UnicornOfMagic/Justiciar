@@ -27,7 +27,8 @@ namespace Justiciar
             Dagger,
             Bow,
             Crossbow,
-            Potato
+            Potato,
+            Generic
         }
         
     }

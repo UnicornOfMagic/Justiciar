@@ -15,7 +15,8 @@ namespace Justiciar
                 Awful,
                 Garbage,
                 Worthless,
-                Meh
+                Meh,
+                Generic
             }
         }
 

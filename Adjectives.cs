@@ -25,13 +25,14 @@ namespace Justiciar
             Antagonizing,
             Terrifying,
             Gazing,
+            Generic
 
         }
 
         public enum Ending
         {
             Justice,
-            Potato,
+            Potatoes,
             Harming,
             Thorns,
             Blasphemy,
@@ -54,7 +55,8 @@ namespace Justiciar
             Chickens,
             Wilderness,
             Trees,
-            Antelope
+            Antelope,
+            Generic
         }
     }
 }
