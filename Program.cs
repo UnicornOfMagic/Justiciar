@@ -8,8 +8,16 @@ namespace Justiciar
         {
 
             Console.WriteLine("Hello World!");
-            Console.WriteLine("I made an item:");
-            Console.WriteLine(Forge.ForgeItem());
+            bool done = false;
+            do
+            {
+                Console.WriteLine("I made an item:");
+                Console.WriteLine(Forge.ForgeItem());
+                Console.Write("Again? (y/n)");
+                var userInput = Console.ReadKey().KeyChar.ToString();
+                Console.WriteLine("\n");
+                done = !userInput.Equals("y");
+            } while (!done);
         }
     }
 }

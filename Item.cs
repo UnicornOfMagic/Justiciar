@@ -17,16 +17,46 @@ namespace Justiciar
             this.endingAdj = endingAdj;
         }
 
-        public Item() {
+        public Item()
+        {
             //How to get a random value from enum
-            Array values = Enum.GetValues(typeof(Rarity.Levels));
-            Random random = new Random();
-            Rarity.Levels randomRarity = (Rarity.Levels)values.GetValue(random.Next(values.Length));
+            Array rarities = Enum.GetValues(typeof(Rarity.Levels));
+            Array leadAdjs = Enum.GetValues(typeof(Adjectives.Leading));
+            Array endAdjs = Enum.GetValues(typeof(Adjectives.Ending));
+            Array itemTypes = Enum.GetValues(typeof(Items.Types));
+            Rarity.Levels randomRarity = GetRandomRarity(rarities);
+            Adjectives.Leading randomLeadAdj = GetRandomLeadingAdj(leadAdjs);
+            Adjectives.Ending randomEndAdj = GetRandomEndingAdj(endAdjs);
+            Items.Types randomItemType = GetRandomItemType(itemTypes);
 
             rarity = randomRarity;
-            leadingAdj = Adjectives.Leading.Flaming;
-            itemType = Items.Types.Sword;
-            endingAdj = Adjectives.Ending.Justice;
+            leadingAdj = randomLeadAdj;
+            itemType = randomItemType;
+            endingAdj = randomEndAdj;
+        }
+
+        static Rarity.Levels GetRandomRarity(Array values)
+        {
+            Random random = new Random();
+            return (Rarity.Levels)values.GetValue(random.Next(values.Length));
+        }
+
+        static Adjectives.Leading GetRandomLeadingAdj(Array values)
+        {
+            Random random = new Random();
+            return (Adjectives.Leading)values.GetValue(random.Next(values.Length));
+        }
+
+        static Adjectives.Ending GetRandomEndingAdj(Array values)
+        {
+            Random random = new Random();
+            return (Adjectives.Ending)values.GetValue(random.Next(values.Length));
+        }
+
+        static Items.Types GetRandomItemType(Array values)
+        {
+            Random random = new Random();
+            return (Items.Types)values.GetValue(random.Next(values.Length));
         }
 
         public override string ToString()
