@@ -5,6 +5,7 @@ namespace Justiciar
         
         public enum Leading
         {
+            Nothing,
             Flaming,
             Freezing,
             Sparking,
@@ -31,6 +32,7 @@ namespace Justiciar
 
         public enum Ending
         {
+            Nothing,
             Justice,
             Potatoes,
             Harming,

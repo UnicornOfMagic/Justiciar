@@ -61,7 +61,11 @@ namespace Justiciar
 
         public override string ToString()
         {
-            return (rarity + " " + leadingAdj + " " + itemType + " of " + endingAdj);
+            return (string.Format("{0}{1}{2}{3}", 
+                                  rarity, 
+                                  (leadingAdj is Adjectives.Leading.Nothing ? "" : " " + leadingAdj.ToString()), 
+                                  " " + itemType, 
+                                  (endingAdj is Adjectives.Ending.Nothing ? "" : (" of " + endingAdj))));
         }
     }
 }
