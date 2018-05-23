@@ -6,8 +6,7 @@ namespace Justiciar
     {
         static void Main(string[] args)
         {
-
-            Console.WriteLine("Hello World!");
+			Console.WriteLine("Welcome to the Forge!");
             bool done = false;
             do
             {

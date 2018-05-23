@@ -1,7 +1,6 @@
-﻿using System;
-namespace Justiciar
+﻿namespace Justiciar.Enums
 {
-    public class Rarity{
+    public static class Rarity{
         
         public enum Levels
             {

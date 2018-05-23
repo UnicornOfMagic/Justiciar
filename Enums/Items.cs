@@ -1,7 +1,6 @@
-﻿using System;
-namespace Justiciar
+﻿namespace Justiciar.Enums
 {
-    public class Items {
+    public static class Items {
         
         public enum Types
         {
