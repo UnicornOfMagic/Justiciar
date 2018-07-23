@@ -1,8 +1,8 @@
-﻿using System;
-namespace Justiciar
+namespace Justiciar.Enums
 {
-    public class Adjectives {
-        
+    public static class Adjectives
+    {
+
         public enum Leading
         {
             Nothing,
@@ -27,7 +27,6 @@ namespace Justiciar
             Terrifying,
             Gazing,
             Generic
-
         }
 
         public enum Ending

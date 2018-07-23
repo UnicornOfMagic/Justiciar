@@ -1,4 +1,6 @@
 ﻿using System;
+using Justiciar.Enums;
+
 namespace Justiciar
 {
     public class Item

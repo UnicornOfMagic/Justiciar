@@ -1,8 +1,8 @@
-﻿using System;
-namespace Justiciar
+namespace Justiciar.Enums
 {
-    public class Items {
-        
+    public static class Items
+    {
+
         public enum Types
         {
             Sword,
@@ -16,7 +16,7 @@ namespace Justiciar
             Greaves,
             Jeans,
             Crocs,
-            Bracers, 
+            Bracers,
             Hat,
             Sunglasses,
             Monocle,
@@ -30,6 +30,6 @@ namespace Justiciar
             Potato,
             Generic
         }
-        
+
     }
 }
